@@ -30,7 +30,7 @@ jobs:
     - name: Azure Login
       uses: Azure/login@v1
       env:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.PORTFOLIOWEBSITEHAMISHMCDONALD_3CF0 }}
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
